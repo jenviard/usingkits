@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UIkit</title>
+
+    <!-- uikit css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.24.2/dist/css/uikit.min.css" />
+
+    <!-- uikit js-->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.24.2/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.24.2/dist/js/uikit-icons.min.js"></script>
+
+</head>
+<body>
+    <header class="uk-container">
+        <!-- https://getuikit.com/docs/heading -->
+        <h1 class="uk-heading-small">RIPE</h1>
+
+    </header>
+
+    <!-- https://getuikit.com/docs/divider -->
+    <hr class="uk-divider-small">
+
+    <!-- https://getuikit.com/docs/video --> 
+        <video src="./video/ripe-pitch-video.mp4" width="1920" height="1000" playsinline loop muted preload="none" uk-video></video>
+
+    <!-- https://getuikit.com/docs/card -->
+    <div class="uk-child-width-1-2@s" uk-grid>
+        <div>
+            <br>
+            <div class="uk-card uk-card-default uk-card-small uk-card-body">
+                <h3 class="uk-card-title"> Virtual inventory tracking</h3>
+                <p>It starts right at the grocery store. Users scan their receipts, and RIPE automatically extracts and adds those items into their virtual kitchen. Users can even input extra details like weight, size, or quantity and we’ll provide custom storage tips to keep food fresher for longer.</p>
+                <p> Once items are scanned from the receipt, they appear in the Virtual Kitchen. Here users can update how much they have left, add leftovers, and see what they already have in their kitchen. This helps avoid duplicate purchases allowing users to save money and prevent unnecessary waste. </p>
+            </div>
+        </div>
+        <div>
+            <br>
+            <div class="uk-card uk-card-default uk-card-small uk-card-body">
+                <h3 class="uk-card-title">Produce ripeness detection</h3>
+                    <p>Our favorite feature is Produce Scanning. Point your phone at a fruit or veggie, and RIPE’s AI will tell you if it’s:</p>
+
+                    <ul class="uk-list uk-list-bullet">
+                        <li>Not yet R.I.P.E</li>
+                        <li>Over R.I.P.E</li>
+                        <li>Just R.I.P.E</li>
+                    </ul>
+
+                    <p>This feature can even be used before purchasing produce at the grocery store to make sure you're buying items at your desired ripeness level.</p>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- https://getuikit.com/docs/description-list -->
+    <dl class="uk-description-list">
+        <dt>Inspiration</dt>
+        <dd>3 of us are children of immigrants, and when we were presented with the topics, we instantly gravitated toward food preservation. In our diverse family backgrounds, we all related to the fact that in immigrant households, wasting food is considered a mortal sin (only punishable by death). Although One of us were'nt raised by immigrants, she did grow up in Delaware. You may know that Delaware is the second smallest state in the U.S., but what you might not know is that it ranks among the top 20 states that waste the most food. The U.S. wastes about 30-40% of its food production, which equals $218 billion in wasted food every year—that’s over $800 per household.</dd>
+    </dl>
+</body>
+</html>
